@@ -41,3 +41,4 @@ This project is to explore the correlations (if any) between socioeconomic stand
 
 # Data Sources
 [Yelp](https://www.yelp.com/dataset/download)
+[Kaggle](https://www.kaggle.com/datafiniti/vegetarian-vegan-restaurants)
