@@ -5,7 +5,10 @@ This project is to explore the correlations (if any) between socioeconomic stand
 ## Executive Summary
 
 ## How to Reproduce
+<<<<<<< HEAD
 1. Download and sign data license for [YELP](https://www.yelp.com/dataset/download)
+=======
+>>>>>>> 331423af662e0a6eea697296478f7f1fb1790c7c
 
 ## Deliverables
 
@@ -39,5 +42,9 @@ This project is to explore the correlations (if any) between socioeconomic stand
 |------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------|
 | some_feature                     | float64  | description                                                                       |
 
+<<<<<<< HEAD
 # Data Sources
 [Yelp](https://www.yelp.com/dataset/download)
+=======
+# Data Sources
+>>>>>>> 331423af662e0a6eea697296478f7f1fb1790c7c
