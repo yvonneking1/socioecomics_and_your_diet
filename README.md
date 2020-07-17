@@ -39,7 +39,13 @@ This project is to explore the correlations (if any) between socioeconomic stand
 ### Description of all the features in the dataframe
 | Feature                            | Datatype | Description                                                                                                                        |
 |------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------|
-| some_feature                     | float64  | description                                                                       |
+| STATEFIPS                     | Char  | The State Federal Information Processing code                                                                       |
+| STATE                   | Char  | Two-digit State abbreviation code                                                                      |
+| ZIPCODE                   | Char  | 5-digit Zip Code                                                                     |
+| N1                  | Num  | Number of returns                                                                    |
+| A00100                 | Num  | Adjusted gross income                                                                   |
+| A02650                 | Num  | Total income amount                                                                 |
+| N02650                 | Num  | Number of return with total income                                                                |
 
 # Data Sources
 [Yelp](https://www.yelp.com/dataset/download)
