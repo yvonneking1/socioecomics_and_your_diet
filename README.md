@@ -5,7 +5,9 @@ This project is to explore the correlations (if any) between socioeconomic stand
 ## Executive Summary
 
 ## How to Reproduce
-1. Download and sign data license for [YELP](https://www.yelp.com/dataset/download)
+1. Download Data Files and save into a folder named Data inside your main folder:
+> - [IRS Income by zipcode](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-2017-zip-code-data-soi)
+> - [Vegan Restaurants](https://www.kaggle.com/datafiniti/vegetarian-vegan-restaurants)
 
 ## Deliverables
 
@@ -42,3 +44,4 @@ This project is to explore the correlations (if any) between socioeconomic stand
 # Data Sources
 [Yelp](https://www.yelp.com/dataset/download)
 [Kaggle](https://www.kaggle.com/datafiniti/vegetarian-vegan-restaurants)
+[IRS](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-2017-zip-code-data-soi)
