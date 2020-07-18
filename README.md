@@ -46,8 +46,13 @@ This project is to explore the correlations (if any) between socioeconomic stand
 | A00100                 | Num  | Adjusted gross income                                                                   |
 | A02650                 | Num  | Total income amount                                                                 |
 | N02650                 | Num  | Number of return with total income                                                                |
+| avg_gross_income                 | float64  | Adjusted gross income divided by Number of returns                                                                |
+| avg_total_income                 | float64  | Total income amount divided by Number of returns                                                                |
+
 
 # Data Sources
 [Yelp](https://www.yelp.com/dataset/download)
+
 [Kaggle](https://www.kaggle.com/datafiniti/vegetarian-vegan-restaurants)
+
 [IRS](https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-2017-zip-code-data-soi)
