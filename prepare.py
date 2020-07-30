@@ -2,6 +2,19 @@
 import pandas as pd
 import acquire
 
+
+
+# Helper functions
+
+def add_leading_zero_to_zipcodes(x):
+    """
+    Takes in a number and pads it with 0 up to 5 digits
+    """
+    return str(x).zfill(5)
+
+
+
+# Prep functions
 def prep_irs_data():
     """
     This function uses the acquire_irs function and prepares the dataframe by:
@@ -56,5 +69,8 @@ def prep_irs_data():
     irs_df.STATEFIPS = irs_df.STATEFIPS.astype("str")
     irs_df.N1 = irs_df.N1.astype("int")
     irs_df.N02650 = irs_df.N02650.astype("int")
+    
+    #Update zipcodes to ensure all are 5 disgits
+    irs_df.zipcode = irs_df.zipcode.apply(add_leading_zero_to_zipcodes)
     
     return irs_df
